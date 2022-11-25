@@ -18,7 +18,7 @@ Este repositorio contiene las implementaciones asociadas al documento 'Adversari
 
 Una vez instalados los requerimientos, se pueden emplear los siguientes comandos para reproducir los resultados reportados en el documento principal 
 
-'''
+```
 Git commit
-'''
+```
 
