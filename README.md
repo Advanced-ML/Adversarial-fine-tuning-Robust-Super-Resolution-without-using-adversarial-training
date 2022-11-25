@@ -1,4 +1,4 @@
-<em> #Adversarial fine tuning: Robust Super-Resolution without using adversarial training </em>
+#Adversarial fine tuning: Robust Super-Resolution without using adversarial training
 
 Gabriel Gonzalez, Leonardo Manrique and Sergio Rincón
 
