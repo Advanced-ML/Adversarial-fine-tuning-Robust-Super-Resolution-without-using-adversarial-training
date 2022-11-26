@@ -11,49 +11,49 @@ The SwinIR requirements are detailed in this [repository](https://github.com/csz
 
 
 ### Latent Diffusion
-Correr los siguientes comandos asociados a la instalación de paquetes
+Run the following commands associated with the installation of packages
 ```
 !git clone https://github.com/CompVis/taming-transformers
 !pip install -e ./taming-transformers
 !pip install ipywidgets omegaconf>=2.0.0 pytorch-lightning>=1.0.8 torch-fidelity einops
 ```
 ### SRGCNN
-Los requerimientos de SRGCNN se detallan en el [repositorio oficial](https://github.com/hellloxiaotian/ESRGCNN). Es recomendable instalarlos en un 
-enviroment aparte. 
+SRGCNN requirements are detailed in the [official repository](https://github.com/hellloxiaotian/ESRGCNN). It is recommended to install them
+in a new different enviroment. 
 
 ## Dataset and weights
 La ruta de los datasets y de los pesos de los modelos se encuentra a continuación
 
 ## Testing
 
-Una vez instalados los requerimientos, se pueden emplear los siguientes comandos para reproducir los resultados reportados en el documento principal 
+Once the requirements have been installed, the following commands can be used to reproduce the results reported in the main document.
 
-Para reproducir los resultados en SwinIR y Robust SwinIR con los dos datasets:
+To reproduce the results in SwinIR and Robust SwinIR with the two datasets:
 ```
 main.py --mode test
 ```
 
-To reproduce the results in SwinIR and Robust SwinIR con sólo una imagen:
+To reproduce the results in SwinIR and Robust SwinIR with only one image:
 ```
 main.py --mode demo --img image_name.png
 ```
 
-Para reproducir los resultados en Latent Diffusion con los dos datasets:
+To reproduce the results in Latent Diffusion with the two datasets:
 ```
 main.py --mode test --model LD
 ```
 
-Para reproducir los resultados en Latent Diffusion con sólo una imagen:
+To reproduce the results in Latent Diffusion with only one image:
 ```
 main.py --mode demo --model LD --img image_name.png
 ```
 
-Para reproducir los resultados en SRGCNN (requiere python 2) con los dos datasets:
+To reproduce the results in SRGCNN (requires python 2) with the two datasets:
 ```
 main.py --mode test --model CNN
 ```
 
-Para reproducir los resultados en SRGCNN (requiere python 2) con sólo una imagen:
+To reproduce the results in SRGCNN (requires python 2) with only one image:
 ```
 main.py --mode demo --model CNN --img image_name.png
 ```
