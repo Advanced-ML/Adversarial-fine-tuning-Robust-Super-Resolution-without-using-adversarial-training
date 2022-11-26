@@ -1,14 +1,14 @@
 import numpy as np
 from torchvision.datasets.utils import download_url
 import torch, torchvision
-from LDM.ldm.utils_yo import instantiate_from_config, ismap
+from LDMA.ldm.utils_yo import instantiate_from_config, ismap
 from omegaconf import OmegaConf
 import os
 import ipywidgets as widgets
 from PIL import Image
 from einops import rearrange, repeat
 import time
-from LDM.ldm.models.diffusion.ddim import DDIMSampler
+from LDMA.ldm.models.diffusion.ddim import DDIMSampler
 
 import matplotlib.pyplot as plt
 
