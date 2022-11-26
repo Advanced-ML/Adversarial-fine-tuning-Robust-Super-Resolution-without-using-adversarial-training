@@ -22,7 +22,9 @@ SRGCNN requirements are detailed in the [official repository](https://github.com
 in a new different enviroment. 
 
 ## Dataset and weights
-La ruta de los datasets y de los pesos de los modelos se encuentra a continuación
+Latent diffusion weights are automatically downloaded when used. The SRGCNN (esrgcnn.pth) model is located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /ESRGCNN/Models folder. The SwinIR (SwinIR.pth) and Robust SwinIR (RSwinIR.pth) models are located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /Swin_IR/Models folder.
+
+
 
 ## Testing
 
