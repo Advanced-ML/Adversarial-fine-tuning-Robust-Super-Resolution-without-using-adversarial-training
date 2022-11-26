@@ -59,3 +59,8 @@ To reproduce the results in SRGCNN (requires python 2) with only one image from 
 ```
 main.py --mode demo --model CNN --img image_name.png
 ```
+If you want to test any image from Flickr2K dataset, add this argument to the command:
+```
+--dir Flickr
+```
+
