@@ -7,7 +7,8 @@ This repository contains the implementations associated with the document 'Adver
 
 
 ### SwinIR
-Los requerimientos de SwinIR se detallan en éste [repositorio](https://github.com/cszn/KAIR) dentro de un archivo .txt 
+The SwinIR requirements are detailed in this [repository](https://github.com/cszn/KAIR) within a .txt file
+
 
 ### Latent Diffusion
 Correr los siguientes comandos asociados a la instalación de paquetes
