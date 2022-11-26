@@ -12,7 +12,7 @@ The SwinIR requirements are detailed in this [repository](https://github.com/csz
 
 
 ### Latent Diffusion
-Run the following commands associated with the installation of packages. Be carefull, the taming transformer folder must be inside of /LDMA. Create an empty directory with the name logs within the directory LDMA.
+Change the name of the folder LDM to ldm. Run the following commands associated with the installation of packages. Be carefull, the taming transformer folder must be inside of /LDMA. Create an empty directory with the name logs within the directory LDMA.
 ```
 !git clone https://github.com/CompVis/taming-transformers
 !pip install -e ./taming-transformers
@@ -25,7 +25,7 @@ in a new different enviroment.
 ## Dataset and weights
 Latent diffusion weights are automatically downloaded when used. The SRGCNN (esrgcnn.pth) model is located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the Models folder. Regarding to SwinIR, create a folder with the name Models within the SwinIR folder and put in that location the following SwinIR models.  The SwinIR (SwinIR_01.pth) and Robust SwinIR (R_Swin_IR.pth) models are located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /Swin_IR/Models folder.
 
-Regarding the datasets, they are located in /media/disk0/sirincon/Final Project Files/Datasets, where there are six folders. There are two folders with images named specifically for every architecture. The folders Test_Image_Pairs_CNN and Test_Flickr_CNN must be placed inside the /testsets folder. The Test_Image_Pairs_Swin_IR and Test_Flickr_Swin_IR folders must be placed inside the /Swin_IR/testsets folder. The Image_Pairs_75_256_512 and Flickr_75_256_512 must be placed inside the /LDM folder.
+Regarding the datasets, they are located in /media/disk0/sirincon/Final Project Files/Datasets, where there are six folders. There are two folders with images named specifically for every architecture. The folders Test_Image_Pairs_CNN and Test_Flickr_CNN must be placed inside the /testsets folder. The Test_Image_Pairs_Swin_IR and Test_Flickr_Swin_IR folders must be placed inside the /Swin_IR/testsets folder. The Image_Pairs_75_256_512 and Flickr_75_256_512 must be placed inside the /LDMA folder.
 
 ## Testing
 
