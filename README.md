@@ -58,7 +58,7 @@ python main.py --mode test --model CNN
 
 To reproduce the results in SRGCNN (requires python 2) with only one image from Image Pairs dataset:
 ```
-python main.py --mode demo --model CNN --img image_name
+python main.py --mode demo --model CNN --img image_name --dir image_directory (Flickr or Image Pairs)
 ```
 If you want to test any image from Flickr2K dataset, add this argument to the command:
 ```
