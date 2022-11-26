@@ -3,7 +3,8 @@
 Gabriel Gonzalez, Leonardo Manrique and Sergio Rincón
 
 
-Este repositorio contiene las implementaciones asociadas al documento 'Adversarial fine tuning: Robust Super-Resolution without using adversarial training'. En ese sentido, se cuenta con 3 arquitecturas: SwinIR, SRGCNN y Latent Diffusion (adaptado). Es importante mencionar que mientras que SwinIR y Latent Difussion están implementadas en python 3, SRGCNN está implementada sobre python 2 y por consiguiente tiene requerimientos diferentes. A continuación se detallan los requerimientos.
+This repository contains the implementations associated with the document 'Adversarial fine tuning: Robust Super-Resolution without using adversarial training'. In that sense, there are 3 architectures: SwinIR, SRGCNN and Latent Diffusion (adapted). It is important to mention that while SwinIR and Latent Diffusion are implemented on Python 3, SRGCNN is implemented on Python 2 and therefore has different requirements. 
+
 
 ### SwinIR
 Los requerimientos de SwinIR se detallan en éste [repositorio](https://github.com/cszn/KAIR) dentro de un archivo .txt 
