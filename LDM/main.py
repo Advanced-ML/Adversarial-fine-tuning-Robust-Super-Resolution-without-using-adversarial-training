@@ -94,7 +94,7 @@ def modelo(image_LR, custom_steps=100, visualize=False):
 def final_run(directory ='Flickr_75_256_512', demo=False, path='002576'):
     mode = widgets.Select(options=['superresolution'],value='superresolution', description='Task:')
     model = get_model(mode.value)  
-    dir, options = get_cond_options(mode.value)
+    #dir, options = get_cond_options(mode.value)
     dir = directory
     if demo == False:
         cond_choice_path_LR = glob.glob(os.path.join(dir, 'LR', '*.png'))
