@@ -37,7 +37,7 @@ main.py --mode test
 
 To reproduce the results in SwinIR and Robust SwinIR with only one image from Image Pairs dataset:
 ```
-main.py --mode demo --img image_name.png
+main.py --mode demo --img image_name
 ```
 
 To reproduce the results in Latent Diffusion with the two datasets:
@@ -47,7 +47,7 @@ main.py --mode test --model LD
 
 To reproduce the results in Latent Diffusion with only one image from Image Pairs dataset:
 ```
-main.py --mode demo --model LD --img image_name.png
+main.py --mode demo --model LD --img image_name
 ```
 
 To reproduce the results in SRGCNN (requires python 2) with the two datasets:
@@ -57,7 +57,7 @@ main.py --mode test --model CNN
 
 To reproduce the results in SRGCNN (requires python 2) with only one image from Image Pairs dataset:
 ```
-main.py --mode demo --model CNN --img image_name.png
+main.py --mode demo --model CNN --img image_name
 ```
 If you want to test any image from Flickr2K dataset, add this argument to the command:
 ```
