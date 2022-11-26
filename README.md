@@ -35,7 +35,7 @@ To reproduce the results in SwinIR and Robust SwinIR with the two datasets:
 main.py --mode test
 ```
 
-To reproduce the results in SwinIR and Robust SwinIR with only one image from Image Pairs dataset:
+To reproduce the results in SwinIR and Robust SwinIR with only one image from Image Pairs dataset (Notice that the image_name does not have .png extention):
 ```
 main.py --mode demo --img image_name
 ```
