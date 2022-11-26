@@ -17,8 +17,8 @@ Run the following commands associated with the installation of packages. Be care
 !pip install -e ./taming-transformers
 !pip install ipywidgets omegaconf>=2.0.0 pytorch-lightning>=1.0.8 torch-fidelity einops
 ```
-### SRGCNN
-SRGCNN requirements are detailed in the [official repository](https://github.com/hellloxiaotian/ESRGCNN). It is recommended to install them
+### ESRGCNN
+ESRGCNN requirements are detailed in the [official repository](https://github.com/hellloxiaotian/ESRGCNN). It is recommended to install them
 in a new different enviroment. 
 
 ## Dataset and weights
