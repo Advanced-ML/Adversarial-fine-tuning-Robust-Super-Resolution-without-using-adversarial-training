@@ -36,7 +36,7 @@ def main():
         LDM.final_run("LDM/Flickr_75_256_512", False, 1)
         print("Test con Latent Diffusion para el conjunto de datos de Image Pairs")
         LDM.final_run("LDM/Image_Pairs_75_256_512", False, 1)
-    elif args.mode == "test" and args.model == "LD" and args.img != None:
+    elif args.mode == "demo" and args.model == "LD" and args.img != None:
         import LDM.main as LDM
         print("Test con Latent Diffusion para la imagen")
         LDM.final_run("LDM/Flickr_75_256_512", True, args.img)
