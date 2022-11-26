@@ -24,7 +24,7 @@ in a new different enviroment.
 ## Dataset and weights
 Latent diffusion weights are automatically downloaded when used. The SRGCNN (esrgcnn.pth) model is located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /ESRGCNN/Models folder. The SwinIR (SwinIR_01.pth) and Robust SwinIR (R_Swin_IR.pth) models are located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /Swin_IR/Models folder.
 
-Regarding the datasets, they are located in /media/disk0/sirincon/Final Project Files/Datasets, where there are six folders. There are two folders with images named specifically for every architecture. The folders Test_Image_Pairs_CNN and Test_Flickr_CNN must be placed inside the /testsets folder. The Test_Image_Pairs_Swin_IR and Test_Flickr_Swin_IR folders must be placed inside the /Swin_IR/testsets folder. The Image_Pairs_75_256_512 and Flickr_75_256_512 must be placed inside the /LDM folder. 
+Regarding the datasets, they are located in /media/disk0/sirincon/Final Project Files/Datasets, where there are four folders. There are two folders with images named specifically for ESRGCNN and two others that will be used as datasets for the other architectures. The folders AAAAAA and AAAAAA must be placed inside the AAAAAAA folder. The other two folders must be placed inside the AAAAAAA folder. 
 
 ## Testing
 
