@@ -5,13 +5,14 @@ Gabriel Gonzalez, Leonardo Manrique and Sergio Rincón
 
 This repository contains the implementations associated with the document 'Adversarial fine tuning: Robust Super-Resolution without using adversarial training'. In that sense, there are 3 architectures: SwinIR, SRGCNN and Latent Diffusion (adapted). It is important to mention that while SwinIR and Latent Diffusion are implemented on Python 3, SRGCNN is implemented on Python 2 and therefore has different requirements. 
 
+Before start create an empty directory with the name testsets, an empty directory with the name logs, an empty directory with the name Models and an empty directory with the name checkpoint. 
 
 ### SwinIR
-The SwinIR requirements are detailed in this [repository](https://github.com/cszn/KAIR) within a .txt file
+The SwinIR requirements are detailed in this [repository](https://github.com/cszn/KAIR) within a .txt file. Create an empty directory with the name testsets within the SwinIR directory.
 
 
 ### Latent Diffusion
-Run the following commands associated with the installation of packages. Be carefull, the taming transformer folder must be inside of /LDM.
+Run the following commands associated with the installation of packages. Be carefull, the taming transformer folder must be inside of /LDM. Create an empty directory with the name logs within the directory LDM.
 ```
 !git clone https://github.com/CompVis/taming-transformers
 !pip install -e ./taming-transformers
