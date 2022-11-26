@@ -20,7 +20,7 @@ Los requerimientos de SRGCNN se detallan en el [repositorio oficial](https://git
 enviroment aparte. 
 
 ## Dataset and weights
-La ruta de los datasets y de los pesos de los modelos se encuentra a continuaciónw
+La ruta de los datasets y de los pesos de los modelos se encuentra a continuación
 
 ## Testing
 
