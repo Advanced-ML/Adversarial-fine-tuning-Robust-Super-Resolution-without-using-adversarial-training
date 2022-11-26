@@ -31,15 +31,15 @@ def main():
             SwinIR.main("demo", "base", "Flickr", path)
 
     elif args.mode == "test" and args.model == "LD":
-        import LDM.main as LDM
+        import LDMA.main as LDM
         print("Test con Latent Diffusion para el conjunto de datos Flickr")
-        LDM.final_run("LDM/Flickr_75_256_512", False, 1)
+        LDM.final_run("LDMA/Flickr_75_256_512", False, 1)
         print("Test con Latent Diffusion para el conjunto de datos de Image Pairs")
-        LDM.final_run("LDM/Image_Pairs_75_256_512", False, 1)
+        LDM.final_run("LDMA/Image_Pairs_75_256_512", False, 1)
     elif args.mode == "demo" and args.model == "LD" and args.img != None:
-        import LDM.main as LDM
+        import LDMA.main as LDM
         print("Test con Latent Diffusion para la imagen")
-        LDM.final_run("LDM/Flickr_75_256_512", True, args.img)
+        LDM.final_run("LDMA/Flickr_75_256_512", True, args.img)
     elif args.mode == "test" and args.model== "CNN": 
         import tcw_sample_b as CNN
         print("Test con ESRGCNN en el dataset Flickr")
