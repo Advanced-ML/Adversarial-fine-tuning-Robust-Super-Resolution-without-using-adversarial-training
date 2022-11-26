@@ -12,7 +12,7 @@ The SwinIR requirements are detailed in this [repository](https://github.com/csz
 
 
 ### Latent Diffusion
-Run the following commands associated with the installation of packages. Be carefull, the taming transformer folder must be inside of /LDM. Create an empty directory with the name logs within the directory LDM.
+Run the following commands associated with the installation of packages. Be carefull, the taming transformer folder must be inside of /LDMA. Create an empty directory with the name logs within the directory LDMA.
 ```
 !git clone https://github.com/CompVis/taming-transformers
 !pip install -e ./taming-transformers
