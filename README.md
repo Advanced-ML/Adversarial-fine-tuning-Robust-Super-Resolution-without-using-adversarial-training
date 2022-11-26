@@ -23,14 +23,39 @@ Para facilitar
 
 Una vez instalados los requerimientos, se pueden emplear los siguientes comandos para reproducir los resultados reportados en el documento principal 
 
-Para reproducir los resultados en SwinIR y Robust SwinIR con los test datasets
+Para reproducir los resultados en SwinIR y Robust SwinIR con los dos datasets:
 ```
 main.py --mode test
 ```
 
-To reproduce the results in SwinIR and Robust SwinIR con sólo una imagen
-
+To reproduce the results in SwinIR and Robust SwinIR con sólo una imagen:
 ```
 main.py --mode demo --img image_name.png
 ```
+
+Para reproducir los resultados en Latent Diffusion con los dos datasets:
+```
+main.py --mode test --model LD
+```
+
+Para reproducir los resultados en Latent Diffusion con sólo una imagen:
+```
+main.py --mode demo --model LD --img image_name.png
+```
+
+Para reproducir los resultados en SRGCNN (requiere python 2) con los dos datasets:
+```
+main.py --mode test --model CNN
+```
+
+Para reproducir los resultados en Latent Diffusion con sólo una imagen:
+```
+main.py --mode demo --model LD --img image_name.png
+```
+
+
+
+
+
+
 
