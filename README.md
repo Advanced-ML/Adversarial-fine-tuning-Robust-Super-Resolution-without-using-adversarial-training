@@ -23,7 +23,7 @@ ESRGCNN requirements are detailed in the [official repository](https://github.co
 in a new different enviroment. 
 
 ## Dataset and weights
-Latent diffusion weights are automatically downloaded when used. The SRGCNN (esrgcnn.pth) model is located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /ESRGCNN/Models folder. The SwinIR (SwinIR_01.pth) and Robust SwinIR (R_Swin_IR.pth) models are located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /Swin_IR/Models folder.
+Latent diffusion weights are automatically downloaded when used. The SRGCNN (esrgcnn.pth) model is located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the Models folder. Regarding to SwinIR, create a folder with the name Models within the SwinIR folder and put in that location the following SwinIR models.  The SwinIR (SwinIR_01.pth) and Robust SwinIR (R_Swin_IR.pth) models are located in /media/disk0/sirincon/Final Project Files/Models and must be placed inside the /Swin_IR/Models folder.
 
 Regarding the datasets, they are located in /media/disk0/sirincon/Final Project Files/Datasets, where there are six folders. There are two folders with images named specifically for every architecture. The folders Test_Image_Pairs_CNN and Test_Flickr_CNN must be placed inside the /testsets folder. The Test_Image_Pairs_Swin_IR and Test_Flickr_Swin_IR folders must be placed inside the /Swin_IR/testsets folder. The Image_Pairs_75_256_512 and Flickr_75_256_512 must be placed inside the /LDM folder.
 
@@ -33,35 +33,35 @@ Once the requirements have been installed, the following commands can be used to
 
 To reproduce the results in SwinIR and Robust SwinIR with the two datasets:
 ```
-main.py --mode test
+python main.py --mode test
 ```
 
 To reproduce the results in SwinIR and Robust SwinIR with only one image from Image Pairs dataset (Notice that the image_name does not have .png extention):
 ```
-main.py --mode demo --img image_name
+python main.py --mode demo --img image_name
 ```
 
 To reproduce the results in Latent Diffusion with the two datasets:
 ```
-main.py --mode test --model LD
+python main.py --mode test --model LD
 ```
 
 To reproduce the results in Latent Diffusion with only one image from Image Pairs dataset:
 ```
-main.py --mode demo --model LD --img image_name
+python main.py --mode demo --model LD --img image_name
 ```
 
 To reproduce the results in SRGCNN (requires python 2) with the two datasets:
 ```
-main.py --mode test --model CNN
+python main.py --mode test --model CNN
 ```
 
 To reproduce the results in SRGCNN (requires python 2) with only one image from Image Pairs dataset:
 ```
-main.py --mode demo --model CNN --img image_name
+python main.py --mode demo --model CNN --img image_name
 ```
 If you want to test any image from Flickr2K dataset, add this argument to the command:
 ```
---dir Flickr
+python --dir Flickr
 ```
 
